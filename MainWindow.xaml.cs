@@ -43,5 +43,18 @@ namespace GestionPersonas
             rGrupos grupo = new rGrupos();
             grupo.Show();
         }
+
+        private void TipoAportesMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            rTipoAportes tipoaportes = new rTipoAportes();
+            tipoaportes.Show();
+
+        }
+
+        private void AportesMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            rAportes aportes = new rAportes();
+            aportes.Show();
+        }
     }
 }
